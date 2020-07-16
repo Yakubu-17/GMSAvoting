@@ -1,0 +1,27 @@
+nav{
+  align-self: center;
+  background-color: green;
+}
+
+
+
+
+
+
+@media print{
+	#print{
+		display:none;
+	}
+	
+	#sort{
+		display:none;
+	}
+	
+	#position{
+		display:none;
+	}
+	
+	#back{
+		display:none;
+	}
+}
