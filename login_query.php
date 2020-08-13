@@ -29,13 +29,13 @@
 		}
 		
 		if($voted == 1){
-			echo " <br><center><font color= 'red' size='3'>You Can Only Vote Once</center></font>";
+			echo " <br><center><font color= 'red' size='3'>Harram! You Can Only Vote Once</center></font>";
 		}else{
 			echo " <br><center><font color= 'red' size='3'>LOGIN ERROR!</center></font>";
 		}
 
 		if($voted1 == 1){
-			echo " <br><center><font color= 'red' size='3'>You Can Only Vote Once</center></font>";
+			echo " <br><center><font color= 'red' size='3'>Harram! You Can Only Vote Once</center></font>";
 		}else{
 			echo " <br><center><font color= 'red' size='3'>LOGIN ERROR!</center></font>";
 		}

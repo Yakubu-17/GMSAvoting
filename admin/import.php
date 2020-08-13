@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
 	$handle = fopen($_FILES['filename']['tmp_name'], "r");
 
 	while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-		$conn->query("INSERT into voters (id_number,firstname,lastname,year_level,status) values('$data[0]','$data[1]','$data[2]','$data[3]','Unvoted')");
+		$conn->query("INSERT into voters (id_number,gender,firstname,lastname,year_level,status) values('$data[0]','$data[1]','$data[2]','$data[3]','$data[4]','Unvoted')");
 		
 		}
 

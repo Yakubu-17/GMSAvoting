@@ -8,7 +8,7 @@ $firstname=$_POST['firstname'];
 $lastname=$_POST['lastname'];
 $year_level=$_POST['year_level'];
 $account=$_POST['account'];
-mysql_query ("UPDATE voters SET id_number = '$id_number', gender = '$gender', firstname = '$firstname', lastname = '$lastname', year_level = '$year_level', 
+$conn->query("UPDATE voters SET id_number = '$id_number', gender = '$gender', firstname = '$firstname', lastname = '$lastname', year_level = '$year_level', 
 account = '$account' WHERE voters_id = '$voters_id'")or die(mysql_error());
 }
 header("location: voters.php");

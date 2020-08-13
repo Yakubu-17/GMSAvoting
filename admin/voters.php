@@ -82,7 +82,7 @@
 											
 												 <a rel="tooltip"  title="Delete" id="<?php echo $voters_id; ?>" href="#delete_voters<?php echo $voters_id; ?>" data-target="#delete_voters<?php echo $voters_id?>" data-toggle="modal"class="btn btn-danger btn-outline"><i class="fa fa-trash-o"></i> Delete</a>	
 											    <?php include ('delete_voters_modal.php'); ?>
-												  <a rel="tooltip"  title="Edit" id="<?php echo $row['voters_id'] ?>" href="#edit_voters<?php echo $row['voters_id'] ?>"  data-toggle="modal"class="btn btn-success btn-outline"><i class="fa fa-pencil"></i> Edit</a>	
+												  <a rel="tooltip"  title="Edit" id="<?php echo $row1['voters_id'] ?>" href="#edit_voters<?php echo $row1['voters_id'] ?>"  data-toggle="modal"class="btn btn-success btn-outline"><i class="fa fa-pencil"></i> Edit</a>	
 												
 											  </td>
 														

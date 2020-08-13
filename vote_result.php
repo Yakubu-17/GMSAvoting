@@ -65,7 +65,8 @@
 		?>
     </div>
 			<center>
-		  <div class="col-lg-8" style = "margin-left:240px;" >
+		
+		<div class="col-md-6 col-md-offset-3" >
 		  <div class = "alert alert-success">
 			<label>PRESIDENT</label>
 			<br />
@@ -168,6 +169,7 @@
 			<br />
 			<button type = "submit" data-toggle = "modal" data-target = "#result" class = "btn btn-success" >Submit Final Vote</button>
 		</div>
+			
 	</center>
 	<div class="modal fade" id = "result" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -185,7 +187,7 @@
 									
 									<div class="modal-footer">
 								<a href = "submit_vote.php"><button type = "submit" class="btn btn-success"><i class="icon-check"></i>&nbsp;Yes</button></a>
-								<a href = "vote.php"><button class="btn btn-danger" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Back</button></a>
+								 <!-- /<a href = "vote.php"><button class="btn btn-danger" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Back</button></a>-->
 									</div>
 									</div>
                                     <!-- /.modal-content -->

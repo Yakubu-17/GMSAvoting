@@ -6,7 +6,7 @@
     <div id="row">
         <?php 
 			include ('side_bar.php');
-			if(ISSET($_POST['submit']))
+			if(ISSET($_POST['submit1']))
 				{
 					if(!ISSET($_POST['pres_id']))
 					{

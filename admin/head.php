@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <title> GMSA-KNUST Online Voting System</title>
 
     <!-- Bootstrap Core CSS -->
