@@ -51,10 +51,10 @@
 								require_once 'dbcon.php';
 								if (isset($_POST['ok'])){
 								
-								$username=$_POST['username'];
-								$password=$_POST['password'];
-								$firstname=$_POST['firstname'];
-								$lastname=$_POST['lastname'];
+								$username=mysqli_real_escape_string($conn,$_POST['username']);
+								$password=mysqli_real_escape_string($conn,$_POST['password']);
+								$firstname=mysqli_real_escape_string($conn,$_POST['firstname']);
+								$lastname=mysqli_real_escape_string($conn,$_POST['lastname']);
 										
 		
 		

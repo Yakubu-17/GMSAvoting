@@ -77,11 +77,11 @@
 				require_once 'dbcon.php';
 				
 				if (isset ($_POST ['save'])){
-					$position=$_POST['position'];
-					$firstname=$_POST['firstname'];
-					$lastname=$_POST['lastname'];
-					$year_level=$_POST['year_level'];
-					$gender=$_POST['gender'];
+					$position=mysqli_real_escape_string($conn,$_POST['position']);
+					$firstname=mysqli_real_escape_string($conn,$_POST['firstname']);
+					$lastname=mysqli_real_escape_string($conn,$_POST['lastname']);
+					$year_level=mysqli_real_escape_string($conn,$_POST['year_level']);
+					$gender=mysqli_real_escape_string($conn,$_POST['gender']);
 					$image= addslashes(file_get_contents($_FILES['image']['tmp_name']));
 					$image_name= addslashes($_FILES['image']['name']);
 					$image_size= getimagesize($_FILES['image']['tmp_name']);

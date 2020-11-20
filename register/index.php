@@ -67,11 +67,11 @@
 								require 'dbcon.php';
 								
 								if (isset($_POST['save'])){
-									$firstname=$_POST['firstname'];
-									$lastname=$_POST['lastname'];
-									$id_number=$_POST['id_number'];
-									$gender=$_POST['gender'];
-									$year_level=$_POST['year_level'];
+									$firstname=mysqli_real_escape_string($conn,$_POST['firstname']);
+									$lastname=mysqli_real_escape_string($conn,$_POST['lastname']);
+									$id_number=mysqli_real_escape_string($conn,$_POST['id_number']);
+									$gender=mysqli_real_escape_string($conn,$_POST['gender']);
+									$year_level=mysqli_real_escape_string($conn,$_POST['year_level']);
 									
 
 
